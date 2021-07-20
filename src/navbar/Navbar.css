@@ -1,0 +1,27 @@
+nav{
+    height: 100px;
+    background: lightblue;
+    background: rgba(188, 229, 243, 0.5);
+    background-attachment: fixed;
+    margin-top: -15px;
+  
+}
+.liste{
+    list-style-type: none;
+    background: lightblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.items{
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: large;
+    position: relative;
+    color: black;  
+
+    
+}

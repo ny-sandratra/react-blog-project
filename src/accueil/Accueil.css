@@ -1,0 +1,41 @@
+.section{
+    height: 400;
+}
+.section1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 500px 1fr;
+
+}
+#profil{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-style: hidden;
+}
+.section1{
+    background: radial-gradient(ellipse farthest-corner at 90% 90%,
+    red, yellow 10%, #1e90ff 50%, beige);
+    opacity: 0,1;
+    height: 300px;
+    
+}
+#welcome{
+    margin-left: -500px;
+    margin-top: -100px;
+}
+svg text{
+    stroke:black;
+    font-size: 100px;
+    font-weight: 30;
+    stroke-width: 3;
+    animation: textAnimate 6s infinite;
+
+}
+@keyframes textAnimate{
+    0%{
+        stroke-dasharray: 0% 50%;
+    }
+    100%{
+        stroke-dasharray: 50% 0%;
+    }
+}
